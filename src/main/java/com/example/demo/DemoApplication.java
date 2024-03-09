@@ -3,6 +3,7 @@ package com.example.demo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -36,7 +37,7 @@ public class DemoApplication implements CommandLineRunner, ApplicationContextAwa
 		context = applicationContext;
 	}
 
-	public void setAnimal(Ssak ssak) {
+	public void setAnimal(@Qualifier("tygrysSyberyjski") Ssak ssak) {
 
 	}
 }

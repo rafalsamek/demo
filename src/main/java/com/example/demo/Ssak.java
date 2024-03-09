@@ -13,7 +13,7 @@ class Tygrys extends Kot {
 
 }
 
-@Component("gucio")
+@Component
 class TygrysSyberyjski extends Tygrys {
 
 }
