@@ -15,7 +15,7 @@ public class MyFirstConfiguration {
     }
 
     @Bean
-    @Scope("prototype")
+    @Scope("singleton")
     public Cookie cookie() {
         return new Cookie();
     }
