@@ -31,7 +31,8 @@ public class DemoApplication implements CommandLineRunner, ApplicationContextAwa
 			LOGGER.info(bean);
 		}
 
-		MySingleton.getInstance();
+		MySingleton.getInstance().hashCode();
+		MyPrototype.getInstance().hashCode();
 	}
 
 	@Override
