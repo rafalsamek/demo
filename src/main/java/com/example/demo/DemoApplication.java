@@ -30,6 +30,8 @@ public class DemoApplication implements CommandLineRunner, ApplicationContextAwa
 		for (String bean : beans) {
 			LOGGER.info(bean);
 		}
+
+		MySingleton.getInstance();
 	}
 
 	@Override
