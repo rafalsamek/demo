@@ -36,7 +36,7 @@ public class DemoApplication implements CommandLineRunner, ApplicationContextAwa
 		context = applicationContext;
 	}
 
-	public void setAnimal(Tygrys ssak) {
+	public void setAnimal(Ssak ssak) {
 
 	}
 }

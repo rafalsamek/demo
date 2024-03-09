@@ -8,7 +8,7 @@ import java.util.List;
 @Configuration
 public class MyFirstConfiguration {
 
-    @Bean
+    @Bean("newerColors")
     public List<String> colors() {
         return List.of("RED", "BLUE", "GREEN");
     }
