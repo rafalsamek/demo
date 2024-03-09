@@ -8,6 +8,7 @@ public class Car {
 
     private final Engine engine;
 
+    @Autowired // to samo co bez - domyślnie konstruktor jest autowired
     public Car(Engine engine) {
         this.engine = engine;
     }
