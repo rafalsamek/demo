@@ -10,7 +10,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.context.annotation.ComponentScan;
 
+@ComponentScan({"com.example.demo", "com.example.test"})
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner, ApplicationContextAware {
 
