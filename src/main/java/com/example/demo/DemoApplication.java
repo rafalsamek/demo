@@ -35,4 +35,8 @@ public class DemoApplication implements CommandLineRunner, ApplicationContextAwa
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
 		context = applicationContext;
 	}
+
+	public void setAnimal(Tygrys ssak) {
+
+	}
 }
