@@ -10,13 +10,10 @@ class Kot extends Ssak {
 
 }
 
-@Component
-@Primary
 class Tygrys extends Kot {
 
 }
 
-@Component
 class TygrysSyberyjski extends Tygrys {
 
 }
